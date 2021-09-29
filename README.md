@@ -24,5 +24,9 @@ Per prima cosa occorre copiare il file esportato nella cartella *data/dataset* d
 La cartella dataset, conterrà tre cartelle: *test,train,valid* contenenti a lro volta le cartelle *labels* e *images*. <br><br>
 
 Creiamo quindi il nostro file di configurazione *data.yaml* e lo inseriamo nella cartella *data/dataset*.<br>
-Il file contiene il path del dataset, della cartella valid,train e test; il numero delle classi comn i realtivi nomi: <br>
+Il file contiene il path del dataset, della cartella valid,train e test; il numero delle classi comn i realtivi nomi: <br><br>
+                              *path:  .../data/dataset<br>
+                              valid:  .../data/dataset/valid/images<br>
+                              train:  .../data/dataset/train/images<br>
+                              test:   .../data/dataset/test/images<br>*
           
