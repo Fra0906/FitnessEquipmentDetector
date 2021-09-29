@@ -1,0 +1,7 @@
+path: C:/Users/Utente/Desktop/PROGETTO_TESI/yolov5-master/data/dataset
+train: C:/Users/Utente/Desktop/PROGETTO_TESI/yolov5-master/data/dataset/train/images
+val: C:/Users/Utente/Desktop/PROGETTO_TESI/yolov5-master/data/dataset/valid/images
+
+
+nc: 7
+names: ['Ball', 'Box', 'Gym Weights', 'Kettlebell', 'Lat Machine', 'Punching Bag', 'Step']
