@@ -30,18 +30,20 @@ La cartella dataset, conterrà tre cartelle: *test,train,valid* contenenti a lro
 
 Creiamo quindi il nostro file di configurazione *data.yaml* e lo inseriamo nella cartella *data/dataset*.<br>
 Il file contiene il path del dataset, della cartella valid,train e test; il numero delle classi comn i realtivi nomi: <br><br>
-                              *path:  .../data/dataset<br>
-                              valid:  .../data/dataset/valid/images<br>
-                              train:  .../data/dataset/train/images<br>
-                              test:   .../data/dataset/test/images <br> <br>
-                              nc: 7 <br> 
-names: ['Ball', 'Box', 'Gym Weights', 'Kettlebell', 'Lat Machine', 'Punching Bag', 'Step']* <br><br>
+```
+                          *path:  .../data/dataset<br>
+                           valid:  .../data/dataset/valid/images<br>
+                           train:  .../data/dataset/train/images<br>
+                           test:   .../data/dataset/test/images <br> <br>
+                           nc: 7 <br> 
+                           names: ['Ball', 'Box', 'Gym Weights', 'Kettlebell', 'Lat Machine', 'Punching Bag', 'Step']* <br><br>
+```
 
 Sceglaimo poi il modello con cui addestrare il dataset. <br>
 In questo progetto usiamo Yolov5s disponibile al seguente link: https://github.com/ultralytics/yolov5/releases.
 
 Lo script da eseguire per il training è il seguente: <br>
-*python train.py --img 640 --batch 16 --epochs 100 --data /Users/Utente/Desktop/FitnessEquipmentDetector/yolov5/data/dataset/data.yaml --weights yolov5s.pt* <br>
+'python train.py --img 640 --batch 16 --epochs 100 --data /Users/Utente/Desktop/FitnessEquipmentDetector/yolov5/data/dataset/data.yaml --weights yolov5s.pt' <br>
 
 Al termine di questa fase otteniamo  il modello addestrato: *best.pt* <br>
 
