@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffff"
+    android:orientation="vertical"
+    android:isScrollContainer="true"
+    android:padding="20dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KETTLEBELL"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="10dp">
+
+                -- riga 1 --
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/pistacchio"
+                    android:padding="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cosa è?"
+                        android:textColor="#ffff"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Il kettlebell è una palla di ghisa con una maniglia: è un attrezzo molto utilizzato, anche dagli atleti professionisti.
+
+Questo design è ciò che rende unici i kettlebell. A differenza di un manubrio, il baricentro di un kettlebell è sfalsato rispetto al manico – si trova a diversi centimetri di distanza."
+                        android:textColor="@color/black"
+                        android:textSize="13dp" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            -- riga 2 --
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="201dp"
+                        android:background="@color/pistacchio"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="Benefici"
+                            android:textColor="#ffff"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="338dp"
+                            android:layout_height="153dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:text="
+Il kettlebell è uno strumento d’allenamento ideale per chi desidera essere più forte, più resistente, tonificare i muscoli e perdere chili di troppo.
+L’allenamento con i kettlebell è completo perché con un solo attrezzo e anche con pochi esercizi è in grado di apportare i benefici
+ dell’allenamento con i pesi, di quello cardiovascolare di resistenza, di miglioramento della coordinazione e di sviluppo motorio."
+                            android:textColor="@color/black"
+                            android:textSize="13dp" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+            -- riga 3 --
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:background="@color/pistacchio"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="Consigli utili"
+                            android:textColor="#ffff"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="342dp"
+                            android:layout_height="141dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="35dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="4dp"
+                            android:text="In un’oscillazione, devi rinforzare il tuo CORE per impedire che la parte bassa della schiena si pieghi pericolosamente nella parte inferiore del movimento. In qualsiasi esercizio tu faccia, puoi contare sul fatto che il tuo nucleo deve essere sempre attivato per stabilizzare il corpo e garantire la sicurezza, non è opzionale come può essere con altri pesi o macchine liberi."
+                            android:textColor="@color/black"
+                            android:textSize="13dp" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+            -- riga 4 --
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Esempi di possibili esercizi"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:layout_marginTop="20dp"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="209dp"
+                        android:background="@color/white"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:text="  1. Kettlebell Swing"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="16dp"
+                            android:text="Piedi larghezza delle spalle e ben piantati al suolo, afferrare il kettlebell con 2 mani e iniziare a far oscillare frontalmente il kettlebell. L'oscillazione è data esclusivamente dalla spinta delle gambe e del bacino, le braccia assecondano il movimento e la schiena rimane sempre diritta."
+                            android:textColor="@color/black"
+                            android:textSize="13dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageView
+                            android:id="@+id/im7"
+                            android:layout_width="153dp"
+                            android:layout_height="120dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="-40dp"
+                            android:layout_marginBottom="8dp"
+                            android:src="@drawable/kettlebell3" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+            -- riga 5 --
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="253dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="203dp"
+                        android:background="@color/white"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:text="  2. Kettlebell Snatch"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="316dp"
+                            android:layout_height="130dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="50dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="0dp"
+
+                            android:text="\n \nAfferrare il kettlebell con una sola mano.
+ L'esercizio inizia con un movimento deciso e con la massima forza sprigionata dalle gambe, il kettlebell è spinto con forza frontalmente,
+ il braccio si flette e spinge in alto il Girya. Il movimento termina con il corpo in posizione eretta e con il kettlebell sopra la testa."
+                            android:textColor="@color/black"
+                            android:textSize="13dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageView
+                            android:id="@+id/im8"
+                            android:layout_width="93dp"
+                            android:layout_height="162dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="-40dp"
+                            android:layout_marginRight="-10dp"
+                            android:src="@drawable/kettlebell5" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+
+            -- riga 6 --
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:text="  3. Kettlebell \n     Front Squat"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="314dp"
+                            android:layout_height="300dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="50dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="46dp"
+
+                            android:text="Portare due kettlebell alle spalle, piegare le gambe fino a giungere ad un'accosciata completa. Invertire il movimento spingendo con forza verso l'alto con le gambe."
+                            android:textColor="@color/black"
+                            android:textSize="13dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageView
+                            android:id="@+id/im9"
+                            android:layout_width="172dp"
+                            android:layout_height="150dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="-50dp"
+                            android:src="@drawable/kettlebell6" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+            -- riga 7 --
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:text="  4. Kettlebell  \n     Military Press"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="314dp"
+                            android:layout_height="310dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="50dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="46dp"
+
+                            android:text="Portare due kettlebell alle spalle, spingere con forza i kettlebell sopra la testa e ritornare nella posizione iniziale."
+                            android:textColor="@color/black"
+                            android:textSize="13dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageView
+                            android:id="@+id/im10"
+                            android:layout_width="172dp"
+                            android:layout_height="98dp"
+                            android:layout_alignParentRight="true"
+                            android:src="@drawable/kettlebell7" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+                -- riga 8 --
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="195dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="15dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="30dp"
+                                android:text="  5. Kettlebell \n    Push Up"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+
+                            <TextView
+                                android:id="@+id/textView8"
+                                android:layout_width="314dp"
+                                android:layout_height="300dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="50dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="46dp"
+
+                                android:text="Posizionarsi come per eseguire dei semplici piegamenti a terra, ma con la variante di afferrare la maniglia dei kettlebell anziché appoggiarle al suolo. A questo punto iniziare l'esercizio cercando di scendere il più possibile."
+                                android:textColor="@color/black"
+                                android:textSize="13dp" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+
+                            <ImageView
+                                android:id="@+id/im11"
+                                android:layout_width="172dp"
+                                android:layout_height="150dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginTop="-30dp"
+                                android:src="@drawable/kettlebell8" />
+
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:layout_marginTop="50dp"
+                    android:text="Attenzione: prima di intraprendere qualsiasi attività fisica, si consiglia di effettuare una visita medico sportiva o consultare personale competente. "
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>
+
+
+

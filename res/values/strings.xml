@@ -1,0 +1,11 @@
+<resources>
+    <string name="image_view">Image View</string>
+    <string name="detect">Rileva</string>
+    <string name="run_model">Running the model...</string>
+    <string name="restart">Restart</string>
+    <string name="select">Seleziona</string>
+    <string name="live">Live</string>
+
+
+    <string name="app_name">Fitness Equipment Detector</string>
+</resources>

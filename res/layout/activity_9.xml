@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffff"
+    android:orientation="vertical"
+    android:isScrollContainer="true"
+    android:padding="20dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PUNCHING BAG"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="10dp">
+
+                -- riga 1 --
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/celeste"
+                    android:padding="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cosa è?"
+                        android:textColor="#ffff"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Il sacco da boxe da terra è una piattaforma che consente di allenare tecniche di boxe, e in generale in tutti gli sport da combattimento che prevedono di portare colpi al sacco. Rispetto a un tradizionale sacco da boxe, il sacco da boxe con pedana non si deve appendere al soffitto. Questo comporta numerosi vantaggi, ad esempio non è necessario forare il soffitto, inoltre può essere spostato a piacimento."
+                        android:textColor="@color/black"
+                        android:textSize="13dp" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            -- riga 2 --
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="201dp"
+                        android:background="@color/celeste"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="Benefici"
+                            android:textColor="#ffff"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="328dp"
+                            android:layout_height="150dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="17dp"
+                            android:text="
+E’ un ottimo allenamento per tutto il corpo e ti permette di tonificare e definire il tuo fisico.
+
+Svolto con la giusta intensità, infatti, risulta decisamente efficace dal punto di vista aerobico. Muoversi intorno al sacco da boxe, cambiando la posizione del corpo per sferrare i colpi, ti porta a consumare ossigeno e ad aumentare la frequenza cardiaca."
+                            android:textColor="@color/black"
+                            android:textSize="13dp" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+            -- riga 3 --
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:background="@color/celeste"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="Consigli utili"
+                            android:textColor="#ffff"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="344dp"
+                            android:layout_height="130dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="35dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="16dp"
+                            android:text="Per cominciare vanno bene round di due minuti, per evitare di affaticare eccessivamente il tuo fisico.
+
+Il sovrallenamento non è mai positivo, in alcun tipo di attività, per questo sarà importante la fase di recupero tra una serie e l’altra.
+
+Fascia le mani prima di iniziare, per proteggere le nocche, i legamenti, le articolazioni e le ossa delle mani. "
+                            android:textColor="@color/black"
+                            android:textSize="13dp" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+            -- riga 4 --
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Esempi di possibili esercizi"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:layout_marginTop="20dp"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="209dp"
+                        android:background="@color/white"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:text="  1. Jab"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="16dp"
+                            android:text="Assumi la posizione di partenza. Chiudi la mano a pugno, tenendo il pollice all'esterno della mano. Se sei destrimano, distendi il braccio sinistro in avanti; se sei mancino, fai il contrario. Quando allunghi il braccio, tieni il polso dritto e il gomito leggermente piegato. Per finire, torna nella posizione di partenza."
+                            android:textColor="@color/black"
+                            android:textSize="13dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageView
+                            android:id="@+id/im7"
+                            android:layout_width="128dp"
+                            android:layout_height="88dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="-10dp"
+                            android:layout_marginRight="0dp"
+                            android:layout_marginBottom="8dp"
+                            android:src="@drawable/sacco2" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+            -- riga 5 --
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="253dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        android:background="@color/white"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:text="  2. Diretto"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="319dp"
+                            android:layout_height="202dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="50dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="0dp"
+
+                            android:text="\nIl diretto è un pugno sferrato con la tua mano dominante. Assumi la posizione di partenza. Ruota il tallone del tuo piede dominante mentre giri la gamba e l'anca. Quando lo fai, distendi il braccio. Dovresti tenere il gomito leggermente piegato e la mano opposta vicina al viso per proteggerti. Riporta braccio, anca, gamba e tallone nella posizione di partenza."
+                            android:textColor="@color/black"
+                            android:textSize="13dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageView
+                            android:id="@+id/im8"
+                            android:layout_width="125dp"
+                            android:layout_height="70dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="-05dp"
+                            android:layout_marginRight="-10dp"
+                            android:src="@drawable/sacco3" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+
+            -- riga 6 --
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:text="  3. Gancio"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="317dp"
+                            android:layout_height="94dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="50dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="0dp"
+
+                            android:text="Ruota sul tallone del piede non dominante. Gira la gamba e l'anca. Mentre usi il piede da perno, distendi il braccio non dominante in orizzontale davanti al corpo. Tieni la mano dominante vicina al viso per proteggerti e riporta il braccio nella posizione di partenza."
+                            android:textColor="@color/black"
+                            android:textSize="13dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageView
+                            android:id="@+id/im9"
+                            android:layout_width="120dp"
+                            android:layout_height="74dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginRight="-10dp"
+                            android:src="@drawable/sacco4" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+            -- riga 7 --
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:layout_marginTop="20dp"
+                    app:cardCornerRadius="15dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:text="  4. Combinazione 1-2"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="314dp"
+                            android:layout_height="310dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="50dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="46dp"
+
+                            android:text=" Si tratta di una serie di due pugni. Prima sferra un jab. Poi, torna in posizione e colpisci con un diretto. Riporta il braccio nella posizione di partenza."
+                            android:textColor="@color/black"
+                            android:textSize="13dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageView
+                            android:id="@+id/im10"
+                            android:layout_width="122dp"
+                            android:layout_height="84dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="-10dp"
+                            android:src="@drawable/sacco5" />
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+                -- riga 8 --
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="195dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="15dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="30dp"
+                                android:text="  5. Combinazione \n            1-2-3"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+
+                            <TextView
+                                android:id="@+id/textView8"
+                                android:layout_width="314dp"
+                                android:layout_height="300dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="50dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="46dp"
+
+                                android:text="\nSi tratta di una serie di tre pugni. Come per la combinazione 1-2, inizierai con un jab. Poi continua con un gancio e termina la serie con un diretto."
+                                android:textColor="@color/black"
+                                android:textSize="13dp" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+
+                            <ImageView
+                                android:id="@+id/im11"
+                                android:layout_width="131dp"
+                                android:layout_height="110dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="-10dp"
+                                android:layout_marginTop="-10dp"
+                                android:src="@drawable/sacco6" />
+
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                -- riga 6 --
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="190dp"
+                        android:layout_marginTop="20dp"
+                        app:cardCornerRadius="15dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/white"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="30dp"
+                                android:text="  6. Calci"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+
+                            <TextView
+                                android:id="@+id/textView11"
+                                android:layout_width="317dp"
+                                android:layout_height="94dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="50dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="0dp"
+
+                                android:text="\nI calci al sacco sono ideali per modellare i glutei e grazie ai movimenti laterali si lavora molto bene sulle gambe e a seconda dell'intensità con cui viene svolto aumenterà il livello di difficoltà e la bontà dell'esercizio."
+                                android:textColor="@color/black"
+                                android:textSize="13dp" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+
+                            <ImageView
+                                android:id="@+id/im12"
+                                android:layout_width="168dp"
+                                android:layout_height="88dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginTop="-05dp"
+                                android:layout_marginRight="4dp"
+                                android:src="@drawable/sacco7" />
+
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:layout_marginTop="50dp"
+                    android:text="Attenzione: prima di intraprendere qualsiasi attività fisica, si consiglia di effettuare una visita medico sportiva o consultare personale competente. "
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>
+
+
+
