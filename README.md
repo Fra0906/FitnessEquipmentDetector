@@ -1,7 +1,12 @@
 # FitnessEquipmentDetector
 
 Link al repository ufficiale di yolov5: https://github.com/ultralytics/yolov5 <br>
-Link al datset utilizzato: https://drive.google.com/drive/folders/1zjil5UGwYDGZs2xewSqFMS-Y7PSqzbD_?usp=sharing <br>
+Link al datset utilizzato: https://drive.google.com/drive/folders/1zjil5UGwYDGZs2xewSqFMS-Y7PSqzbD_?usp=sharing <br><br>
+
+Installa le dipendenze e i requisiti dal repository ufficiale.<br>
+Per maggiori informazioni consulta il file "Documentazione".<br><br>
+
+Per i dettagli dell'applicazione Android, consultare il file Readme.md presente nella cartella FitnessDetector_APP.
 
 # Creazione del dataset
 
@@ -42,7 +47,7 @@ Al termine di questa fase otteniamo  il modello addestrato: *best.pt* <br>
 
 # Esegui da termianle 
 
-Gli script da eseguire per avviare il sistema da terminale sono i seguenti: <br>
+Gli script da eseguire per avviare il sistema da terminale sono i seguenti: <br><br>
 **WEBCAM**<br>
 python detect.py --weights runs/train/exp/weights/best.pt --img 640 --source 0 <br>
 
