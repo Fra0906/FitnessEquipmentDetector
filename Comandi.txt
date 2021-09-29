@@ -1,0 +1,26 @@
+##TRAINING##
+ python train.py --img 640 --batch 16 --epochs 100 --data /Users/Utente/Desktop/FitnessEquipmentDetector/yolov5/data/dataset/data.yaml --weights yolov5s.pt
+
+
+
+
+
+##WEBCAM##
+python detect.py --weights runs/train/exp/weights/best.pt --img 640 --source 0
+
+##FOTO###
+python detect.py --weights runs/train/exp/weights/best.pt --img 640 --source C:/Users/Utente/Desktop/FitnessEquipmentDetector/yolov5/data/images/gymWeights.jpg 
+
+##VIDEO##
+python detect.py --weights runs/train/exp/weights/best.pt --img 640 --source C:/Users/Utente/Desktop/FitnessEquipmentDetector/yolov5/data/video/box.mp4
+
+
+
+
+
+##USAGE##
+python C:/Users/Utente/Desktop/PROGETTO_TESI/yolov5-master/export.py --weights C:/Users/Utente/Desktop/FitnessEquipmentDetector/yolov5/runs/train/exp/weights/best.pt --include torchscript
+
+
+##INFERENCE##
+python C:/Users/Utente/Desktop/PROGETTO_TESI/yolov5-master/detect.py --weights C:/Users/Utente/Desktop/FitnessEquipmentDetector/yolov5/runs/train/exp/weights/best.pt
