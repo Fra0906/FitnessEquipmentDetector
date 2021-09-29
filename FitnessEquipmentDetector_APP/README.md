@@ -23,7 +23,7 @@ Da terminale, recati nella cartella yolov5 e modifica il file `export.py` con le
 * aggiungi le seguenti due righe dopo la linea 57 tra  `ts = torch.jit.trace(model, img)` e `ts.save(f)`:
 
 ```
-    from torch.utils.mobile_optimizer import optimize_for_mobile
+    from torch.utils.mobile_optimizer import optimize_for_mobile        
     ts = optimize_for_mobile(ts)    
 ```
 
