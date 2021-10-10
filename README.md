@@ -2,7 +2,7 @@
 
 Link al repository ufficiale di yolov5: https://github.com/ultralytics/yolov5 <br><br>
 Link al datset utilizzato: https://drive.google.com/drive/folders/1zjil5UGwYDGZs2xewSqFMS-Y7PSqzbD_?usp=sharing <br>
-Inserisci la cartella *dataset* al seguente percorso: *FitnessEquipmentDetector/Yolov5/data
+Inserisci la cartella *dataset* al seguente percorso: *FitnessEquipmentDetector/Yolov5/data*
 <br><br>
 
 Installa le dipendenze e i requisiti dal repository ufficiale.<br>
