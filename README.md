@@ -1,7 +1,9 @@
 # FitnessEquipmentDetector
 
-Link al repository ufficiale di yolov5: https://github.com/ultralytics/yolov5 <br>
-Link al datset utilizzato: https://drive.google.com/drive/folders/1zjil5UGwYDGZs2xewSqFMS-Y7PSqzbD_?usp=sharing <br><br>
+Link al repository ufficiale di yolov5: https://github.com/ultralytics/yolov5 <br><br>
+Link al datset utilizzato: https://drive.google.com/drive/folders/1zjil5UGwYDGZs2xewSqFMS-Y7PSqzbD_?usp=sharing <br>
+Inserisci la cartella *dataset* al seguente percorso: *FitnessEquipmentDetector/Yolov5/data
+<br><br>
 
 Installa le dipendenze e i requisiti dal repository ufficiale.<br>
 Per maggiori informazioni consulta il file "Documentazione".<br><br>
@@ -31,15 +33,15 @@ La cartella dataset, conterrà tre cartelle: *test,train,valid* contenenti a lro
 Creiamo quindi il nostro file di configurazione *data.yaml* e lo inseriamo nella cartella *data/dataset*.<br>
 Il file contiene il path del dataset, della cartella valid,train e test; il numero delle classi comn i realtivi nomi: <br><br>
 ```
-                          *path:  .../data/dataset<br>
+                           path:  .../data/dataset<br>
                            valid:  .../data/dataset/valid/images<br>
                            train:  .../data/dataset/train/images<br>
                            test:   .../data/dataset/test/images <br> <br>
                            nc: 7 <br> 
-                           names: ['Ball', 'Box', 'Gym Weights', 'Kettlebell', 'Lat Machine', 'Punching Bag', 'Step']* <br><br>
+                           names: ['Ball', 'Box', 'Gym Weights', 'Kettlebell', 'Lat Machine', 'Punching Bag', 'Step'] <br><br>
 ```
 
-Sceglaimo poi il modello con cui addestrare il dataset. <br>
+Scegliamo poi il modello con cui addestrare il dataset. <br>
 In questo progetto usiamo Yolov5s disponibile al seguente link: https://github.com/ultralytics/yolov5/releases.
 
 Lo script da eseguire per il training è il seguente: <br>
