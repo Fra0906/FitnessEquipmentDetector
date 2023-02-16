@@ -32,7 +32,7 @@ python export.py --weights best.pt --include torchscript
 <br>
 
 Nella cartella al percorso `FitnessEquipmentDetector_APP/app/src/main/assets`, oltre al modello `best.totchscript.ptl`, crea un file di testo *classes.txt* contenente i nomi delle classi prese in considerazioni nel modello. <br>
-
+<br>
 
 
 ### 2. Android Studio
@@ -43,18 +43,22 @@ Start Android Studio, dopo apri il progetto in `FitnessEquipmentDetector_APP`
 
 Seleziona un emulatore android o un dispositivo android collegato per eseguire l'applicazione.
 
+<br>
 
 ### 4. Interfaccia grafica
 
 i. Schermata home: <br>
-
+<img src="images/1.png"> <br><br>
 
 ii. Lista attrezzi: <br>
+<img src="images/2.png"> <br>
 
 
 
 Cliccando su ogni attrezzo si apre una schermata che mostra informazioni utili riguardanti l'attrezzo, benefici e consigli utili. Vengonoa anche proposti degli esempi di esercizi da poter svolgere con l'attrezzo: <br>
+<img src="images/3.png"> <br><br>
 
 
 iii. Start: <br>
+<img src="images/4.png"> <br><br>
 
