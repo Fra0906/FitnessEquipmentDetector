@@ -59,10 +59,13 @@ Gli script da eseguire per avviare il sistema da terminale sono i seguenti: <br>
 `python detect.py --weights runs/train/exp/weights/best.pt --img 640 --source C:/Users/Utente/Desktop/FitnessEquipmentDetector/yolov5/data/images/gymWeights.jpg `<br>
 
 **VIDEO**<br>
-`python detect.py --weights runs/train/exp/weights/best.pt --img 640 --source C:/Users/Utente/Desktop/FitnessEquipmentDetector/yolov5/data/video/box.mp4`
-
+`python detect.py --weights runs/train/exp/weights/best.pt --img 640 --source C:/Users/Utente/Desktop/FitnessEquipmentDetector/yolov5/data/video/box.mp4` <br>
+<br>
+<br>
 
 <p>Esempi di test eseguiti: <br>
 <img src="images/2.PNG"> <br>
+<img src="images/3.PNG"> <br>
+<img src="images/4.PNG"> <br>
 
           
