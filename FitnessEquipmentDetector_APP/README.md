@@ -48,17 +48,17 @@ Seleziona un emulatore android o un dispositivo android collegato per eseguire l
 ### 4. Interfaccia grafica
 
 i. Schermata home: <br>
-<img src="images2/1.PNG"> <br>
+<img src="images2/1.PNG"> <br><br>
 
 ii. Lista attrezzi: <br>
-<img src="/images2/2.png"> <br>
+<img src="images2/2.PNG"> <br>
 
 
 
 Cliccando su ogni attrezzo si apre una schermata che mostra informazioni utili riguardanti l'attrezzo, benefici e consigli utili. Vengonoa anche proposti degli esempi di esercizi da poter svolgere con l'attrezzo: <br>
-<img src="/images2/3.png"> <br><br>
+<img src="images2/3.PNG"> <br><br>
 
 
 iii. Start: <br>
-<img src="/images2/4.png"> <br><br>
+<img src="images2/4.PNG"> <br><br>
 
