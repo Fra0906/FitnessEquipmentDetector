@@ -74,7 +74,8 @@ Gli script da eseguire per avviare il sistema da terminale sono i seguenti: <br>
 
 <br>
 <br>
-'Nella cartella APP_FitnessEquipmentDetector è mostrata la realizzazione di un'applicazione mobile Android che incorppora il modello di riconoscimento personalizzato creato'.
+<br>
+*Nella cartella FitnessEquipmentDetector_APP è mostrata la realizzazione di un'applicazione mobile Android che incorppora il modello di riconoscimento personalizzato creato.*
 
 
           
