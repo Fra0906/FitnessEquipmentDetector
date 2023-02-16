@@ -44,4 +44,17 @@ Start Android Studio, dopo apri il progetto in `FitnessEquipmentDetector_APP`
 Seleziona un emulatore android o un dispositivo android collegato per eseguire l'applicazione.
 
 
+### 4. Interfaccia grafica
+
+i. Schermata home: <br>
+
+
+ii. Lista attrezzi: <br>
+
+
+
+Cliccando su ogni attrezzo si apre una schermata che mostra informazioni utili riguardanti l'attrezzo, benefici e consigli utili. Vengonoa anche proposti degli esempi di esercizi da poter svolgere con l'attrezzo: <br>
+
+
+iii. Start: <br>
 
