@@ -68,4 +68,9 @@ Gli script da eseguire per avviare il sistema da terminale sono i seguenti: <br>
 <img src="images/3.PNG"> <br>
 <img src="images/4.PNG"> <br>
 
+<br>
+<p> Il sistema è anche in grado di riconoscere più atrrezzi contemporaneamente: <br>
+<img src="images/5.PNG"> <br>
+
+
           
