@@ -48,7 +48,7 @@ Seleziona un emulatore android o un dispositivo android collegato per eseguire l
 ### 4. Interfaccia grafica
 
 i. Schermata home: <br>
-<img src="FitnessEquipmentDetector/FitnessEquipmentDetector_APP/images2/1.png"> <br><br>
+<img src="FitnessEquipmentDetector/images/1.png"> <br><br>
 
 ii. Lista attrezzi: <br>
 <img src="/images2/2.png"> <br>
