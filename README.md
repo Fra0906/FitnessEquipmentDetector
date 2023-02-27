@@ -1,7 +1,7 @@
 # FitnessEquipmentDetector
 
 Link al repository ufficiale di yolov5: https://github.com/ultralytics/yolov5 <br><br>
-Link al datset utilizzato: https://drive.google.com/drive/folders/1zjil5UGwYDGZs2xewSqFMS-Y7PSqzbD_?usp=sharing <br> (il link è cambiato perchè il dataset sta su onedrive, sistema)
+Link al datset utilizzato: https://unibari-my.sharepoint.com/:u:/g/personal/f_annese12_studenti_uniba_it/EfkRoyRLPKxOq30YVSBb948BdYtoMbig4Vpox9isqrwfLA?email=fra.annese9%40gmail.com&e=Puf89V <br>
 Inserisci la cartella *dataset* al seguente percorso: *FitnessEquipmentDetector/Yolov5/data*
 <br><br>
 
